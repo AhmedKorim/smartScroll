@@ -23,7 +23,6 @@ an sync navigation active link with the section aspect to it
  - add `data-scroll` html custom attribute to the navigation links
  
     
-        `
          <nav>
                 <ul>
                     <li><a href="#!" data-scroll="page1">page1</a></li>
@@ -33,13 +32,13 @@ an sync navigation active link with the section aspect to it
                     <li><a href="#!" data-scroll="page5">page5</a></li>
                 </ul>
             </nav>
-        `
+        
         
   - it should has the same value as the id used for the section
    
-        `
+        
           <div id="#page3">page3</div>
           
           <li><a href="#!" data-scroll="page3">page3</a></li>
 
-        `
+        
