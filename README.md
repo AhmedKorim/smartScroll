@@ -35,7 +35,7 @@ an sync navigation active link with the section aspect to it
             </nav>
         `
         
-   -it should has the same value as the id used for the section
+  - it should has the same value as the id used for the section
    
         `
           <div id="#page3">page3</div>
